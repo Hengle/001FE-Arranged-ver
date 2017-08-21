@@ -79,7 +79,7 @@ public class PlayerChoice : MonoBehaviour {
             {
                 if (gridScript.matrixG[i, j].GetComponent<TileBase>() != null)
                 {
-                    TileBase ColourResetter = gridScript.matrixG[i, j].GetComponent<TileBase>();
+                    ColourResetter = gridScript.matrixG[i, j].GetComponent<TileBase>();
                     ColourResetter.bNormalColour = true;
                     ColourResetter.bColourState = false;
                     ColourResetter.bColourState1 = false;
